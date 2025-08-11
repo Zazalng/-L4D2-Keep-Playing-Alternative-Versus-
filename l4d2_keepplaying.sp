@@ -12,7 +12,7 @@ public Plugin myinfo =
     author = "Zazalng",
     description = "Alternative Versus where everyone start as survivor and once died will become infected team hunt down the remaining survivor team.",
     version = PLUGIN_VERSION,
-    url = "https://discord.gg/ZJWuzSy"
+    url = "https://github.com/Zazalng/-L4D2-Keep-Playing-Alternative-Versus-"
 };
 
 // Struct to store dead survivor info
@@ -154,4 +154,5 @@ int GetSurvivorIndex(int steamId){
         }
     }
     return -1; // Return -1 if not found
+
 }
